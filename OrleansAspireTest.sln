@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansAspireTest.AppHost", "OrleansAspireTest.AppHost\OrleansAspireTest.AppHost.csproj", "{3E9CA047-1854-48C7-8891-0856574EBD3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansAspireTest.ServiceDefaults", "OrleansAspireTest.ServiceDefaults\OrleansAspireTest.ServiceDefaults.csproj", "{8C32902B-9952-43D2-A969-D12C7484AF97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansAspireTest.Client", "OrleansAspireTest.Client\OrleansAspireTest.Client.csproj", "{7605F37A-20BD-488D-AF42-D2A80CC6BE8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrleansAspireTest.Silo", "OrleansAspireTest.Silo\OrleansAspireTest.Silo.csproj", "{F946A434-C412-4EA3-BFCC-3567183EE6A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansAspireTest.Grains.Contracts", "OrleansAspireTest.Grains.Contracts\OrleansAspireTest.Grains.Contracts.csproj", "{3CB5035F-B95B-484B-861A-7F4463DCF439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansAspireTest.Grains", "OrleansAspireTest.Grains\OrleansAspireTest.Grains.csproj", "{AD6B9946-254F-4829-BF71-173C90BEB8C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E9CA047-1854-48C7-8891-0856574EBD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9CA047-1854-48C7-8891-0856574EBD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9CA047-1854-48C7-8891-0856574EBD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9CA047-1854-48C7-8891-0856574EBD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C32902B-9952-43D2-A969-D12C7484AF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C32902B-9952-43D2-A969-D12C7484AF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C32902B-9952-43D2-A969-D12C7484AF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C32902B-9952-43D2-A969-D12C7484AF97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7605F37A-20BD-488D-AF42-D2A80CC6BE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7605F37A-20BD-488D-AF42-D2A80CC6BE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7605F37A-20BD-488D-AF42-D2A80CC6BE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7605F37A-20BD-488D-AF42-D2A80CC6BE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F946A434-C412-4EA3-BFCC-3567183EE6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F946A434-C412-4EA3-BFCC-3567183EE6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F946A434-C412-4EA3-BFCC-3567183EE6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F946A434-C412-4EA3-BFCC-3567183EE6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB5035F-B95B-484B-861A-7F4463DCF439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB5035F-B95B-484B-861A-7F4463DCF439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB5035F-B95B-484B-861A-7F4463DCF439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB5035F-B95B-484B-861A-7F4463DCF439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD6B9946-254F-4829-BF71-173C90BEB8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD6B9946-254F-4829-BF71-173C90BEB8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD6B9946-254F-4829-BF71-173C90BEB8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD6B9946-254F-4829-BF71-173C90BEB8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A8EDF69-7EE9-42A3-BA4A-B2E80CBCF533}
+	EndGlobalSection
+EndGlobal
