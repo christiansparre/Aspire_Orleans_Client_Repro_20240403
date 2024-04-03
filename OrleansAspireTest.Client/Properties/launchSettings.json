@@ -8,7 +8,6 @@
       "applicationUrl": "https://localhost:7254",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-        //"USE_ORLEANS_CLIENT_HACK": "sure"
       }
     }
   }
