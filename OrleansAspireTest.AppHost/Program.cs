@@ -9,11 +9,11 @@ var orleans = builder.AddOrleans("my-app")
     .WithClustering(clusteringTable)
     .WithGrainStorage("Default", grainStorage);
 
-builder.AddProject<Projects.OrleansAspireTest_Silo>("silo")
+builder.AddProject<Projects.OrleansAspireTest_Silo>("silo", launchProfileName: "default")
     .WithReference(orleans)
     .WithReplicas(3);
 
-builder.AddProject<Projects.OrleansAspireTest_Client>("client")
+builder.AddProject<Projects.OrleansAspireTest_Client>("client", launchProfileName: "default")
     .WithReference(orleans);
 
 builder.Build().Run();

@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "OrleansAspireTest.Silo": {
+    "default": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

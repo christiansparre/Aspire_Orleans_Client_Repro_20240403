@@ -7,14 +7,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Aspire.Azure.Data.Tables" Version="8.0.0-preview.4.24156.9" />
+		<PackageReference Include="Aspire.Azure.Data.Tables" Version="8.0.0-preview.5.24201.12" />
 		<PackageReference Include="Microsoft.Orleans.Sdk" Version="8.1.0-preview3" />
 		<PackageReference Include="Microsoft.Orleans.Clustering.AzureStorage" Version="8.1.0-preview3" />
 		<PackageReference Include="Microsoft.Orleans.Client" Version="8.1.0-preview3" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\OrleansAspireTest.Grains.Contracts\OrleansAspireTest.Grains.Contracts.csproj" />
-	  <ProjectReference Include="..\OrleansAspireTest.ServiceDefaults\OrleansAspireTest.ServiceDefaults.csproj" />
+		<ProjectReference Include="..\OrleansAspireTest.Grains.Contracts\OrleansAspireTest.Grains.Contracts.csproj" />
+		<ProjectReference Include="..\OrleansAspireTest.ServiceDefaults\OrleansAspireTest.ServiceDefaults.csproj" />
 	</ItemGroup>
 </Project>

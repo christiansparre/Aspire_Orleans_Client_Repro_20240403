@@ -17,7 +17,7 @@ if (Environment.GetEnvironmentVariable("USE_ORLEANS_CLIENT_HACK") is not null)
 var builder = WebApplication.CreateBuilder(args);
 
 builder.AddServiceDefaults();
-builder.AddKeyedAzureTableService("clustering");
+builder.AddKeyedAzureTableClient("clustering");
 builder.UseOrleansClient();
 
 // Add services to the container.

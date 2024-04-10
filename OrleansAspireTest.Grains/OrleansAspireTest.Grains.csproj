@@ -11,6 +11,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\OrleansAspireTest.Grains.Contracts\OrleansAspireTest.Grains.Contracts.csproj" />
+		<ProjectReference Include="..\OrleansAspireTest.Grains.Contracts\OrleansAspireTest.Grains.Contracts.csproj" />
 	</ItemGroup>
 </Project>
