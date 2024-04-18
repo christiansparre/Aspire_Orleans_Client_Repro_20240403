@@ -8,9 +8,9 @@
 
 	<ItemGroup>
 		<PackageReference Include="Aspire.Azure.Data.Tables" Version="8.0.0-preview.5.24201.12" />
-		<PackageReference Include="Microsoft.Orleans.Sdk" Version="8.1.0-preview3" />
-		<PackageReference Include="Microsoft.Orleans.Clustering.AzureStorage" Version="8.1.0-preview3" />
-		<PackageReference Include="Microsoft.Orleans.Client" Version="8.1.0-preview3" />
+		<PackageReference Include="Microsoft.Orleans.Sdk" Version="8.1.0" />
+		<PackageReference Include="Microsoft.Orleans.Clustering.AzureStorage" Version="8.1.0" />
+		<PackageReference Include="Microsoft.Orleans.Client" Version="8.1.0" />
 	</ItemGroup>
 
 	<ItemGroup>
